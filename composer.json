@@ -1,0 +1,25 @@
+{
+  "name" : "nia/formatting-numeric",
+  "description" : "Component with several numeric formatter implementations such like monetary, percentage and decimal.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "ext-intl" : "*",
+    "nia/formatting" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "formatter", "formatting", "monetary", "percentage", "decimal" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Formatting\\Numeric\\" : "sources/",
+      "Test\\Nia\\Formatting\\Numeric\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
